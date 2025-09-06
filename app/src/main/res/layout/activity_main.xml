@@ -226,4 +226,4 @@
         app:tint="@android:color/white"
         tools:ignore="ContentDescription" />
 
-/androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
