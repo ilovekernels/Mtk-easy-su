@@ -183,11 +183,11 @@ class MainActivity : AppCompatActivity(), CoroutineScope {
         }
     }
 
-    private fun onSetupBannerAd() {
-        binding.mBannerAd.loadAd(AdRequest.Builder().build())
+    /*private fun onSetupBannerAd() {
+        binding.mBannerAd.loadAd(AdRequest.Builder().build())*/
     }
 
-    private fun onLoadFullScreenAd(onComplete: (error: LoadAdError?) -> Unit) =
+    /*private fun onLoadFullScreenAd(onComplete: (error: LoadAdError?) -> Unit) =
         InterstitialAd.load(
             this, getString(R.string.interstitial_advertising_id),
             AdManagerAdRequest.Builder().build(),
@@ -205,7 +205,7 @@ class MainActivity : AppCompatActivity(), CoroutineScope {
 
                 override fun onAdFailedToLoad(error: LoadAdError) {
                     advertising = null
-                    onComplete(error)
+                    onComplete(error)*/
                 }
             },
         )
